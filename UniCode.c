@@ -17,8 +17,17 @@ int main(){
 
     //Ferenheit to celcius:
     float a = 72;
-    float b = ((a-32)*5)/9;
-    printf("In celcius : %f\n, b");
+    float b = (a-32)*5/9;
+    printf("In celcius : %f\n", b);
+
+    //Division & Modulus:
+    int x = 5, y = 2;
+    int div = x/y;
+    int div1 = x%y;
+    printf (" value of div : %d\n", div);
+    printf (" value of div1 : %d\n", div1);
+
+    //
 
     return 0;
 }
